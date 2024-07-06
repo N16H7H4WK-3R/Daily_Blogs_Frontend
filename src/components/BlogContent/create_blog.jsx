@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import '../App.css';
+
 
 const CreateBlog = () => {
     const navigate = useNavigate();

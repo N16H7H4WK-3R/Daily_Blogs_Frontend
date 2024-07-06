@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./components/login";
-import Signup from "./components/signup";
-import './App.css'
-import Landing from "./components/landing";
-import CreateBlog from "./components/create_blog";
-import Header from "./components/header";
-import Body from "./components/body";
-import Footer from "./components/footer";
-import ManageBlogs from "./components/ManageBlog";
-import NotFoundPage from "./components/NotFoundPage";
+import Login from "./components/UserAuth/login";
+import Signup from "./components/UserAuth/signup";
+import Landing from "./components/utilities/landing";
+import CreateBlog from "./components/BlogContent/create_blog";
+import Header from "./components/views/header";
+import Body from "./components/BlogContent/body";
+import Footer from "./components/views/footer";
+import ManageBlogs from "./components/BlogContent/ManageBlog";
+import NotFoundPage from "./components/utilities/NotFoundPage";
+import './assets/App.css'
 
 function App() {
 
