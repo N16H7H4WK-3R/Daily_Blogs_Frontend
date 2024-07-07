@@ -19,7 +19,7 @@ function Landing() {
                         <h1 style={{ letterSpacing: '2px' }}>Daily Blogs</h1>
                         <p className="lead"> Your Ultimate Source for Fresh Insights, Inspiration, and Daily Knowledge!</p>
                         <p className="lead">
-                            <a href="#" className="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+                            <a href="/home" className="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
                         </p>
                     </main>
                 </div>
